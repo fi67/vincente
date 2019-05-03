@@ -79,7 +79,7 @@ header, footer{
     
 #testme {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     
 }
 
