@@ -119,7 +119,7 @@ background-image:url(ContactIcon.png);
     }
 #testme {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     
 }
 
