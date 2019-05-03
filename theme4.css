@@ -10,6 +10,10 @@
     src: url("Roboto-Light.ttf");
 }
 
+body {
+    margin:0;
+}
+
 #container{
     min-width:240px;
     max-width:1200px;
