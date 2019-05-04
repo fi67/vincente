@@ -90,11 +90,14 @@ header, footer{
     
 @media only screen and (min-width : 600px) {   
 
+    header{
+        width:40%;
+    }
  
 .navText {
 display:inline;
-    position:relative;
-    top:0;
+position:relative;
+top:0;
 }    
   
 .mainNav a {
@@ -106,32 +109,26 @@ background-position:center 2px;
 /* Desktop sized screen */
 @media only screen and (min-width : 800px) {
     
+    
+    
+.mainNav {
+    position:relative;
+    width:40%;
+    }
+    
+    
 .mainNav a {
 background-position:5px center;
 display:inline;
     
 }
-.mainNav ul {
-justify-content: flex-end;
-}  
 .mainNav li {
 width:120px;
 flex-grow: 0;
 }
-.mainNav li:nth-of-type(1) {
-border-left:2px solid black;
-} 
-.mainNav li:nth-of-type(4) {
-border-right:2px solid black;
-} 
 
-.navText {
-display:inline;
-text-align:left;
-padding-left:53px;
-padding-top:0;
-        position:relative;
-}
+
+
     
 }
 
