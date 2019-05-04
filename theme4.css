@@ -103,7 +103,7 @@ top:0;
 }
 
 /* Desktop sized screen */
-@media only screen and (min-width : 800px) {
+@media only screen and (min-width : 840px) {
     
         header{
         width:30%;
@@ -118,7 +118,7 @@ top:0;
     
     
 .mainNav li {
-width:120px;
+width:150px;
 flex-grow: 0;
 }
 
