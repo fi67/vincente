@@ -93,6 +93,7 @@ header, footer{
  
 .navText {
 display:inline;
+    position:relative;
 }    
   
 .mainNav a {
@@ -107,6 +108,7 @@ background-position:center 2px;
 .mainNav a {
 background-position:5px center;
 display:inline;
+    
 }
 .mainNav ul {
 justify-content: flex-end;
@@ -127,6 +129,7 @@ display:inline;
 text-align:left;
 padding-left:53px;
 padding-top:0;
+        position:relative;
 }
     
 }
