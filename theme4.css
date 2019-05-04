@@ -94,6 +94,7 @@ header, footer{
 .navText {
 display:inline;
     position:relative;
+    top:0;
 }    
   
 .mainNav a {
